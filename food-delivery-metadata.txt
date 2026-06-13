@@ -1,0 +1,41 @@
+food_delivery.csv
+==================
+Column Name		Data Type
+--------------------------
+DeliveryID		Integer
+OrderID			Long
+CustomerName	String
+DeliveryDate	Date
+DriverID		Integer
+RestaurantID	Integer
+DeliveryStatus	String
+PaymentMethod	String
+DeliveryAddress	String
+CustomerPhone	String
+
+
+
+food_sales.csv
+=================
+	
+Column Name		Data Type
+----------------------
+OrderID			Integer
+MenuItem		String
+Quantity		Integer
+PricePerItem	Float
+TotalPrice		Float
+Discount		Float
+Tax				Float
+OrderDate		Timestamp
+
+
+Data Location for Static Data
+------------------------------
+dbfs:/FileStore/tables/fooddelivery
+
+
+Data Location for Streaming Data
+------------------------------------
+
+dbfs:/FileStore/tables/fooddelivery/streaming 
